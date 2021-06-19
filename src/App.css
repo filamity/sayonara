@@ -21,5 +21,78 @@
 
 * {
 	font-family: "Century Schoolbook";
-	transition: 0.5s;
+	color: #E1AD01;
+}
+
+.all {
+	height: 2000px;
+}
+
+.ty {
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 99;
+	transition: 1.5s;
+}
+
+#thankyou {
+	margin-top: 120px;
+	transition: 1s;
+}
+
+#from, #allofus {
+	opacity: 0;
+	transition: 1s;
+}
+
+#list {
+	pointer-events: none;
+	color: #fff !important;
+	position: fixed;
+	top: 20%;
+	transition: 1s;
+}
+
+#leftdir {
+	-webkit-animation: movingleft 300s infinite;
+	animation: movingleft 300s infinite;
+}
+
+#rightdir {
+	-webkit-animation: movingright 300s infinite;
+	animation: movingright 300s infinite;
+}
+
+@keyframes movingleft {
+	from {margin-left: 0px;}
+	to {margin-left: -2200px;}
+}
+@-webkit-keyframes movingleft {
+	from {margin-left: 0px;}
+	to {margin-left: -2200px;}
+}
+
+@keyframes movingright {
+	from {margin-left: -2200px;}
+	to {margin-left: 0px;}
+}
+@-webkit-keyframes movingright {
+	from {margin-left: -2200px;}
+	to {margin-left: 0px;}
+}
+
+.listitem {
+	font-size: 70px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#quotes {
+	max-width: 100%;
+	position: fixed;
+	top: 75%;
+	left: 50%;
+	transition: 1s;
+	transform: translate(-50%, 0);
 }
