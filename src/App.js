@@ -27,7 +27,7 @@ function App() {
 		}
 	} else {
 		if (document.getElementById("thankyou")) {
-			document.getElementById("thankyou").style.marginTop = "120px"
+			document.getElementById("thankyou").style.marginTop = "30%"
 		}
 	}
 
@@ -76,16 +76,16 @@ function App() {
 
 			<div className="ty" style={{top: "50%", textAlign: "center"}}>
 				<h1 id="thankyou" style={{fontSize: "80px"}}>Thank You</h1>
-				<div id="from" style={{marginTop: "-30px", fontSize: "30px"}}>from</div>
-				<h1 id="allofus" style={{marginTop: "20px", fontSize: "45px"}}>All of Us</h1>
+				<div id="from" style={{marginTop: "-50px", fontSize: "30px"}}>from</div>
+				<h1 id="allofus" style={{marginTop: "10px", fontSize: "45px"}}>All of Us</h1>
 			</div>
 
 			<div id="list" style={{opacity: "0"}}>
-				<p className="listitem" id="leftdir" style={{marginTop: "5px"}}>Iggy Matthew Alex Sebastian Jan Morgan Krish Ademide Nicholas Zed Daniel Freddy Noble Q Ben Gareth</p>
-				<p className="listitem" id="rightdir" style={{marginTop: "-70px"}}>Jake Hugo Freddie George Leon Alex Patrick George Shiraz Chike Sam Theo Aarav George</p>
-				<p className="listitem" id="leftdir" style={{marginTop: "-70px"}}>Ben Tom Victor Sam Andre Max Dani Jake Caddy Henry Jonty Caddy Victor Sam Tom Andre</p>
-				<p className="listitem" id="rightdir" style={{marginTop: "-70px"}}>Zane Tobi Algie Caspar Valentine Jonathan Harry George John Misha Tomiwa Sam Aaron Gus</p>
-				<p className="listitem" id="leftdir" style={{marginTop: "-70px"}}>Charlie Josh Oscar Awni Louis Charlie Freddie James Rory Freddie Harry Lucas Henry Freddie</p>
+				<p className="listitem" id="leftdir" style={{marginTop: "5px"}}>Iggy Matthew Alex Sebastian Jan Morgan Krish Ademide Nicholas Zed Daniel Freddy Noble Q Ben Gareth Iggy Matthew Alex Sebastian Jan Morgan Krish Ademide Nicholas Zed Daniel Freddy Noble Q Ben Gareth</p>
+				<p className="listitem" id="rightdir" style={{marginTop: "-70px"}}>Jake Hugo Freddie George Leon Alex Patrick George Shiraz Chike Sam Theo Aarav George Jake Hugo Freddie George Leon Alex Patrick George Shiraz Chike Sam Theo Aarav George</p>
+				<p className="listitem" id="leftdir" style={{marginTop: "-70px"}}>Ben Tom Victor Sam Andre Max Dani Jake Caddy Henry Jonty Caddy Victor Sam Tom Andre Ben Tom Victor Sam Andre Max Dani Jake Caddy Henry Jonty Caddy Victor Sam Tom Andre</p>
+				<p className="listitem" id="rightdir" style={{marginTop: "-70px"}}>Zane Tobi Algie Caspar Valentine Jonathan Harry George John Misha Tomiwa Sam Aaron Gus Zane Tobi Algie Caspar Valentine Jonathan Harry George John Misha Tomiwa Sam Aaron Gus</p>
+				<p className="listitem" id="leftdir" style={{marginTop: "-70px"}}>Charlie Josh Oscar Awni Louis Charlie Freddie James Rory Freddie Harry Lucas Henry Freddie Charlie Josh Oscar Awni Louis Charlie Freddie James Rory Freddie Harry Lucas Henry Freddie</p>
 			</div>
 
 			<div id="quotes" style={{opacity: "0"}}>
@@ -99,8 +99,6 @@ function App() {
 					<path class="a3" d="M0 40 L30 72 L60 40"></path>
 				</svg>
 			</div>
-
-			<section style={{height: "2000px"}}></section>
 		</div>
 	)
 }

@@ -60,7 +60,7 @@ function Quotes() {
 
     return (
         <h1>
-            <span style={{fontSize: "20px"}} class="typewrite" data-period="2000" data-type='[ "Hi, Im Si.n my case, I wasn", "I am Creacomponents and I have to access them by class andtive.", "I Lovecomponents and I have to access them by class and Design.", "I Love tocomponents and I have to access them by class and Develop." ]'>
+            <span style={{fontSize: "20px"}} class="typewrite" data-period="2000" data-type='[ "\"The House always felt more joyous when you were around.\"", "\"You were always there to encourage us, whether for Trials or Sports.\"", "\"We shall miss the (many) times you caught us out of bed after lights out.\"", "\"I hope I helped you choose the projector.\"" ]'>
                 <span class="wrap"></span>
             </span>
         </h1>
