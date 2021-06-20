@@ -19,13 +19,13 @@
 	src: url("fonts/CENSCBK.TTF");
 }
 
-* {
+.all {
+	background-color: #000080;
+	width: 100%;
+	margin: 0;
+	height: 2000px;
 	font-family: "Century Schoolbook";
 	color: #E1AD01;
-}
-
-.all {
-	height: 2000px;
 }
 
 .ty {
@@ -136,5 +136,5 @@
 	left: 50%;
 	transition: 1s;
 	transform: translate(-50%, 0);
-	line-height: 15px;
+	line-height: 25px;
 }

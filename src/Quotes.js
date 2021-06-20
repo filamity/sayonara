@@ -59,11 +59,11 @@ function Quotes() {
     }
 
     return (
-        <h1>
-            <span style={{fontSize: "20px"}} class="typewrite" data-period="2000" data-type='[ "\"The House always felt more joyous when you were around.\"", "\"You were always there to encourage us, whether for Trials or Sports.\"", "\"We shall miss the (many) times you caught us out of bed after lights out.\"", "\"I hope I helped you choose the projector.\"" ]'>
+        <center>
+            <span style={{fontSize: "20px"}} class="typewrite" data-period="2000" data-type='[ "\"The House always felt more joyous when you were around.\"", "\"You were always there to encourage us, whether for Trials or Sports.\"", "\"We shall miss the (many) times you caught us out of bed after lights out.\"", "\"I hope I helped you choose the projector.\"", "\"Thank you for not punishing me for things I should have been punished for.\"", "\"The best of luck in Brisbane!\"", "\"Thank you for bringing the Aussie spirit to Moretons.\"" ]'>
                 <span class="wrap"></span>
             </span>
-        </h1>
+        </center>
     )
 }
 

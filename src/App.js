@@ -53,7 +53,7 @@ function App() {
 
 	if (scrollPos > 800) {
 		if (document.getElementById("list")) {
-			document.getElementById("list").style.opacity = 0.4
+			document.getElementById("list").style.opacity = 0.3
 		}
 	} else {
 		if (document.getElementById("list")) {
